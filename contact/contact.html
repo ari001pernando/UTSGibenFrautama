@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Kontak</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="../cv/cv.html">CV</a>
+        <a href="../services/service.html">Services</a>
+        <a href="../portofolio/portofolio.html">Portfolio</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+
+  <div class="container">
+    <h2>Kontak Me</h2>
+    <form action="submit.php" method="POST">
+      <div class="form-group">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit">Kirim</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
